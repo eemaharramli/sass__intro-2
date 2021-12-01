@@ -1,0 +1,13 @@
+#about .about__content .about__content--links a{
+    border: 1px solid #000;
+    color: $main-color;
+    background: #fff;
+    display: inline-block;
+    padding: 15px;
+    transition: .3s linear all;
+    &:hover{
+        cursor: pointer;
+        color: #fff;
+        background: #000;
+    }
+}

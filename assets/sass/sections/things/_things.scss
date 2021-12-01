@@ -1,0 +1,29 @@
+#things{
+    width: 100%;
+    background: #000;
+    height: 410px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .things__container{
+        width: 50%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        i{
+            color: #fff;
+            font-size: 40px;
+        }
+        span{
+            color: #fff;
+            text-align: center;
+            line-height: 30px;
+            &:nth-of-type(2){
+                color: #C9C9C9;
+            }
+        }
+    }
+}
